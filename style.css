@@ -5,15 +5,15 @@ body{
     padding: 0;
     margin: 0;
 }
-h1,p{
+h1,h3,p{
     padding: 0;
     margin: 0;
 }
 header{
-    width: 100%;
+    width: 1440px;
     height: 605px;
 }
-.container{
+.container1{
     display: flex;
     padding: 100px 156px;
 }
@@ -58,3 +58,59 @@ header{
     width: 426px;
     padding-left: 131px;
 }
+.header-2 h2{
+    font-family: Poppins;
+    text-align: center;
+    font-size: 48px;
+}
+.header-2 .year{
+    color:#FFAD5A;
+}
+.container2{
+    display: flex;
+    width: 100%;
+    padding-top: 48px;
+    padding-right: 60px;
+    padding-left: 156px;
+    padding-bottom: 48px;
+}
+.container2 .box1{
+    height: 376px;
+    width: 360px;
+    margin-right: 24px;
+    border-radius: 26px;
+    background-color: #EDF5F6
+}
+.container2 .box2{
+    height: 376px;
+    width: 360px;
+    margin-right: 24px;
+    border-radius: 26px;
+    background-color: #FFEEEE
+}
+.container2 .box3{
+    height: 376px;
+    width: 360px;
+    border-radius: 26px;
+    background-color: #FFF4D6
+}
+.container2 img{
+    width: 141px;
+    height: 141px;
+    padding-left: 32px;
+    margin-top: 25px;
+}
+.container2 h3{
+    font-family: Poppins;
+    font-size: 24px;
+    padding-left: 32px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+.container2 p{
+    font-family: Poppins;
+    font-size: 16px;
+    padding-left: 32px;
+    padding-right: 32px;  
+}
+ 
