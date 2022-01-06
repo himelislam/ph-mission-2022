@@ -16,7 +16,6 @@ header{
 .container1{
     display: flex;
     padding: 100px 156px;
-    height: 552px;
 }
 .first-header{
     width: 50%;
@@ -56,13 +55,18 @@ header{
     font-weight: 500;
     color: #FFFFFF;
 }
+.first-header a:hover{
+    background-color: #874cd4;
+    transition: all 1s ease-in-out;
+}
 .first-header .scroll{
     font-size: 16px;
     padding-top: 43px;
 }
 .first-header img{
-    width: 526px;
+    width: 580px;
     padding-left: 111px;
+    margin-top: -60px;
 }
 .custom h2{
     font-family: Poppins;
@@ -173,6 +177,10 @@ header{
     font-weight: 500;
     color: #FFFFFF;
  }
+ .container3 .details1 a:hover{
+    background-color: #874cd4;
+    transition: all 1s ease-in-out;
+ }
 .container4{
     width: 1222px;
      display: flex;
@@ -211,6 +219,10 @@ header{
     font-family: Poppins;
     font-weight: 500;
     color: #FFFFFF;
+}
+.container4 .details2 a:hover{
+    background-color: #874cd4;
+    transition: all 1s ease-in-out;
 }
 .container4 .img2 img{
     position: absolute;
@@ -266,6 +278,10 @@ header{
     font-family: Poppins;
     font-weight: 500;
     color: #FFFFFF;
+}
+.container5 .details3 a:hover{
+    background-color:#874cd4;
+    transition: all 1s ease-in-out;
 }
 .footer{
     height: 177px;
